@@ -10,7 +10,7 @@ export default function LoginForm() {
   const router = useRouter()
 
   // Simple password authentication (change this to your desired password)
-  const ADMIN_PASSWORD = 'memories2024'
+  const ADMIN_PASSWORD = 'memories12.9'
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -69,7 +69,7 @@ export default function LoginForm() {
         </form>
 
         <p className="text-xs text-muted-foreground text-center font-light">
-          Default password: memories2024
+          {/* Default password: memories2024 */}
         </p>
       </div>
     </div>
